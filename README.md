@@ -5,7 +5,7 @@ Affected Component: All versions that are below 2.7.4
 Step to reproduce: Detection and Exploitation: 
 1. Go to seting content group 
 
-2.Inject payload : "' test <img src="" onerror="alert(3)"> to name of post type
+2.Inject payload : "' test \<img src=\"\" onerror=\"alert(1)\"\> to name of post type
 
 3. Access to admin page. Then the script is execute
 
